@@ -1,4 +1,4 @@
-
+//bubble sort algorithm
 class BubbleSort 
 {
 	public static void main(String args[])
@@ -18,7 +18,7 @@ class BubbleSort
 				}
 			}
 		}
-		
+		//printing the array
 			for(j=0;j<15;j++)
 			{
 				System.out.println(arr[j]);
