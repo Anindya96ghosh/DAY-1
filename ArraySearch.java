@@ -1,3 +1,5 @@
+//program to find a number from an array
+
 import java.util.*;
 class ArraySearch
 {
@@ -9,10 +11,14 @@ class ArraySearch
 		int element=in.nextInt();
 		int arr[]=new int[15];
 		System.out.println("Enter the elements of the array ");
+		
+		//storing the elements to the array
 		for(int i=0;i<15;i++)
 		{
 			arr[i]=in.nextInt();
 		}
+		
+		//logic to check the presence of the element in the array
 		for(int i=0;i<15;i++)
 		{
 			if(element==arr[i])
