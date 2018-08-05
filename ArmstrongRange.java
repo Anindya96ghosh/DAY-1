@@ -1,4 +1,4 @@
-
+//Program to find armstrong numbers from a range of numbers
 public class ArmstrongRange {
 
 	public static void main(String[] args) {
